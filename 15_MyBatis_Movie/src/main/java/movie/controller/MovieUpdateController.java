@@ -49,6 +49,7 @@ public class MovieUpdateController {
 	// updateForm.jsp submit 
 	// updateForm.jsp submit 추가하기 
 	// updateForm.jsp submit 한글 처리 테스트 
+	// SJH 팀원이 수정함!
 	@RequestMapping(value = command,method = RequestMethod.POST)
 	public ModelAndView doActionPost(@ModelAttribute("movie") @Valid MovieBean movie,BindingResult result,
 								@RequestParam("pageNumber") int pageNumber) {
