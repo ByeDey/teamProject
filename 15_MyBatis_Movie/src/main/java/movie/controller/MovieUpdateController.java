@@ -51,7 +51,8 @@ public class MovieUpdateController {
 	// updateForm.jsp submit 한글 처리 테스트 
 	// SJH 팀원이 수정함!
 	// SJH 팀원이 수정함! 2차 테스트
-	// SJH 팀원이 수정함! 3차 테스트   
+	// SJH 팀원이 수정함! 3차 테스트  
+	// 마스터가 수정함!
 	@RequestMapping(value = command,method = RequestMethod.POST)
 	public ModelAndView doActionPost(@ModelAttribute("movie") @Valid MovieBean movie,BindingResult result,
 								@RequestParam("pageNumber") int pageNumber) {
