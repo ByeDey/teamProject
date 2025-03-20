@@ -47,6 +47,7 @@ public class MovieUpdateController {
 	
 	
 	// updateForm.jsp submit 
+	// updateForm.jsp submit 추가하기 
 	@RequestMapping(value = command,method = RequestMethod.POST)
 	public ModelAndView doActionPost(@ModelAttribute("movie") @Valid MovieBean movie,BindingResult result,
 								@RequestParam("pageNumber") int pageNumber) {
