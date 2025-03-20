@@ -70,5 +70,7 @@ public class MovieUpdateController {
 		mav.setViewName(gotoPage); // "redirect:/list.mv?pageNumber="+3;
 		
 		return mav;
+		
+		//SJH Ãß°¡ÇÔ!
 	}
 }
